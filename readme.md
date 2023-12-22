@@ -4,11 +4,13 @@ tbc
 
 ---
 commands
->docker-compose up -> start containers
->docker ps --all ->  list all containers, both running and stopped
->docker stats -> display a live stream of container resource usage statistics
->docker container ls -> alternative way to list running containers, e.g.:
->>docker container ls  
+<ul>
+<li>docker-compose up -> start containers</li>
+<li>docker ps --all ->  list all containers, both running and stopped</li>
+<li>docker stats -> display a live stream of container resource usage statistics</li>
+<li>docker container ls -> alternative way to list running containers, e.g.:</li>
+</ul>
+>docker container ls  
 
 <table>
   <tr>
@@ -88,12 +90,14 @@ commands
 docker inspect 71516d78c311 -> provides detailed information about a specific container, e.g. 71516d78c311
 
 all services/ urls
-Apache NiFi — http://localhost:8091/nifi/ (to process and distribute data)
-Apache NiFi Registry — http://localhost:18080/nifi-registry/ (to store, manage and version control NiFi resources)
-Apache Airflow — http://localhost:8085/admin/ (to programmatically author, schedule and monitor workflows)
-pgAdmin — http://localhost:5050/browser/ (as db)
-minIO — http://localhost:9000/ (as a locally hosted, S3-compatible object-storage)
-Docker for hosting
 
+<ul>
+<li>Apache NiFi — http://localhost:8091/nifi/ (to process and distribute data)</li>
+<li>Apache NiFi Registry — http://localhost:18080/nifi-registry/ (to store, manage and version control NiFi resources)</li>
+<li>Apache Airflow — http://localhost:8085/admin/ (to programmatically author, schedule and monitor workflows)</li>
+<li>pgAdmin — http://localhost:5050/browser/ (as db)</li>
+<li>minIO — http://localhost:9000/ (as a locally hosted, S3-compatible object-storage)</li>
+<li>Docker for hosting</li>
+</ul>
 
 thx to https://github.com/CribberSix?tab=repositories
