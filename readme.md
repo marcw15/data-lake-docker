@@ -4,11 +4,11 @@ tbc
 
 ---
 commands
-docker-compose up -> start containers
-docker ps --all ->  list all containers, both running and stopped
-docker stats -> display a live stream of container resource usage statistics
-docker container ls -> alternative way to list running containers, e.g.:
->docker container ls  
+>docker-compose up -> start containers
+>docker ps --all ->  list all containers, both running and stopped
+>docker stats -> display a live stream of container resource usage statistics
+>docker container ls -> alternative way to list running containers, e.g.:
+>>docker container ls  
 
 <table>
   <tr>
